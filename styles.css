@@ -1,7 +1,6 @@
-* {
-    box-sizing: border-box;
-}
+@import "./components/global.css"
+@import "./components/header.css"
+@import "./components/body.css"
+@import "./components/buttons.css"
+@import "./components/footer.css"
 
-h1 {
-    color: hotpink;
-}
