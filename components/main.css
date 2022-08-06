@@ -45,3 +45,13 @@
     bottom: 20px;
     left: 20px;
 }
+
+#hide {
+    width: 250px;
+    margin-top: 40px;
+    padding: 30px 60px 30px 60px;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    font-size: large;
+}
