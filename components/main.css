@@ -4,7 +4,7 @@
     flex-direction: column;
     position: relative;
 padding:20px;
-margin: 20px 40px;
+margin: 40px 40px;
 
 }
 
@@ -13,8 +13,8 @@ margin: 20px 40px;
     display: flex;
     flex-direction: column;
     position: relative;
-padding:20px;
-margin: 20px 40px;
+padding:180px;
+margin: 40px 40px;
 
 }
 
@@ -32,4 +32,17 @@ margin: 20px 40px;
     align-self: center;
     justify-content: center;
 
+}
+
+.ask2 {
+    font-size: x-large;
+}
+
+.divx {
+    display: flex;
+    flex-direction: flex-start
+    ;
+    justify-content: flex-start;
+    align-self: flex-end;
+    margin: 2px;
 }
