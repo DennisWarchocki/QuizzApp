@@ -7,12 +7,12 @@
     <title>Quizz-App</title>
 <link rel="stylesheet" href="./styles.css">
 <link rel="import" href="./bookmarks.html">
+<script src="./components/string.js"></script>
 </head>
 
 <body>
-<header id="internal__link">
+<header id="jump__top">
 <h1>Quizz App</h1>
-<p>stelle dein Wissen auf die Probe!</p>
 </header>
 
 <main>
@@ -23,8 +23,7 @@
     <img class="bookmark--top--right" src="./images/bookmark-white.png"  alt="account">
 <p class="ask2">What is this HTML everybody talking about?</p>
 
-    <p class="ask1"></p>
-<button class="button__show2" type="submit">show answer</button>
+<button class="button__show2" type="submit">Show Answer</button>
 <div class="divx">
     <button class="tag">#html</button>
     <button class="tag">#flexbox</button>
@@ -37,7 +36,11 @@
 <section class="sec2">
     <img class="bookmark--top--right" src="./images/bookmark-black.png"  alt="account">
     <p class="ask2">Was macht ein Pirat am Computer?</p>
-<button class="button__show2" type="submit">show answer</button>
+    <button onclick="myFunction()">Click Me</button>
+<div id="hide">
+ Er drückt Enter
+</div>
+<button class="button__show2" type="submit">Show Answer</button>
 <div class="divx">
     <button class="tag">#html</button>
     <button class="tag">#flexbox</button>
@@ -49,8 +52,8 @@
 <footer>
 <nav class="nav__bar--fixed">
 
-    <a href="#internal__link" class="button1"><img src="./images/home-black.png" alt="account">
-        <a href="https" class="button2"><img src="./images/bookmark-white.png" alt="account">
+    <a href="#jump__top" class="button1"><img src="./images/home-black.png" alt="account">
+        <a href="./bookmarks.html" class="button2"><img src="./images/bookmark-white.png" alt="account">
     <a href="https" class="button3"><img src="./images/account-circle-outline-white.png" alt="account">
 
         
