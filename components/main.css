@@ -1,19 +1,9 @@
-.sec1 {
+.sec {
     border: 2px solid black;
     display: flex;
     flex-direction: column;
     position: relative;
     padding: 160px;
-    margin: 40px 40px;
-
-}
-
-.sec2 {
-    border: 2px solid black;
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    padding:160px;
     margin: 40px 40px;
 
 }
@@ -25,7 +15,7 @@
 
 }
 
-.button__show2 {
+.button__show__answer {
     width: 250px;
     margin-top: 80px;
     padding: 30px 60px 30px 60px;
@@ -35,23 +25,9 @@
     font-size: large;
 }
 
-.ask2 {
-    font-size: x-large;
-    text-align: center;
-}
-
 .divx {
     position: absolute;
     bottom: 20px;
     left: 20px;
 }
 
-#hide {
-    width: 250px;
-    margin-top: 40px;
-    padding: 30px 60px 30px 60px;
-    display: flex;
-    align-self: center;
-    justify-content: center;
-    font-size: large;
-}

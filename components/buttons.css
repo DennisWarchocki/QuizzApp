@@ -1,7 +1,7 @@
 .button1 {
   display:block;
   padding:0.5em 13.5vw;
-    transition: all 0.2s;
+    transition: all 0.4s;
     }
     .button1:hover{
     background-color:#EAE3D2;
@@ -10,7 +10,7 @@
     .button2 {
       display:block;
       padding:0.5em 13.5vw;
-        transition: all 0.2s;
+        transition: all 0.4s;
         }
         .button2:hover{
         background-color:#EAE3D2;
@@ -19,10 +19,9 @@
         .button3 {
           display:block;
           padding:0.5em 13.5vw;
-            transition: all 0.2s;
+            transition: all 0.4s;
             }
             
             .button3:hover{
             background-color:#EAE3D2;
             }
-
