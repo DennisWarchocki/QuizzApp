@@ -1,0 +1,25 @@
+section {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+padding:20px;
+margin: 20px 40px;
+
+}
+
+.bookmark--top--right  {
+    position: absolute;
+    top: 0;
+    right: 0;
+
+}
+
+.button__show2 {
+    width: 200px;
+    margin-top: 20px;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+
+}
