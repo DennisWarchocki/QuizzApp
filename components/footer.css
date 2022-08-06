@@ -1,20 +1,20 @@
 footer {
 
-    background-color:#94B49F;
+    background-color:#607EAA;
       border-style: solid;
-      border-width: 6px;
-      border-left-width: 6px;
-      border-right-width: 6px;
-      border-bottom-width: 6px;
+      border-width: 4px;
+      border-left-width: 4px;
+      border-right-width: 4px;
+      border-bottom-width: 4px;
       border-color: black;
       position: fixed;
-      bottom: 6px;
+      bottom: 4px;
       width:100vw;
   }
   
   .nav__bar--fixed {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 
   }

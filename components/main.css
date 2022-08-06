@@ -1,5 +1,15 @@
-section {
-    border: 1px solid black;
+.sec1 {
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+padding:20px;
+margin: 20px 40px;
+
+}
+
+.sec2 {
+    border: 2px solid black;
     display: flex;
     flex-direction: column;
     position: relative;
