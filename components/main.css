@@ -3,8 +3,8 @@
     display: flex;
     flex-direction: column;
     position: relative;
-padding:20px;
-margin: 40px 40px;
+    padding: 160px;px;
+    margin: 40px 40px;
 
 }
 
@@ -13,8 +13,8 @@ margin: 40px 40px;
     display: flex;
     flex-direction: column;
     position: relative;
-padding:180px;
-margin: 40px 40px;
+    padding:160px;
+    margin: 40px 40px;
 
 }
 
@@ -26,23 +26,22 @@ margin: 40px 40px;
 }
 
 .button__show2 {
-    width: 200px;
-    margin-top: 20px;
+    width: 250px;
+    margin-top: 80px;
+    padding: 30px 60px 30px 60px;
     display: flex;
     align-self: center;
     justify-content: center;
-
+    font-size: large;
 }
 
 .ask2 {
     font-size: x-large;
+    text-align: center;
 }
 
 .divx {
-    display: flex;
-    flex-direction: flex-start
-    ;
-    justify-content: flex-start;
-    align-self: flex-end;
-    margin: 2px;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
 }
