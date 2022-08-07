@@ -16,7 +16,6 @@
     align-self: center;
     justify-content: center;
     font-size: large;
-    transition: all 0.4s;
 }
 
 #answer__3 {
@@ -27,7 +26,6 @@
     align-self: center;
     justify-content: center;
     font-size: large;
-    transition: all 0.4s;
 }
 
 #answer__4 {
@@ -38,7 +36,6 @@
     align-self: center;
     justify-content: center;
     font-size: large;
-    transition: all 0.4s;
 }
 
 #answer__5 {
@@ -49,7 +46,6 @@
     align-self: center;
     justify-content: center;
     font-size: large;
-    transition: all 0.4s;
 }
 
 .ask {
