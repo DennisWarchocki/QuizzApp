@@ -36,6 +36,7 @@
     align-self: center;
     justify-content: center;
     font-size: large;
+    display: hidden;
 }
 
 #answer__5 {
