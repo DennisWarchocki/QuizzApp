@@ -51,3 +51,9 @@
     font-size: large;
     transition: all 0.4s;
 }
+
+.ask {
+    font-size: x-large;
+    text-align: center;
+}
+
