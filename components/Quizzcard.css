@@ -1,3 +1,7 @@
+/*      --padding?
+        --margin?
+        --width?s
+*/
 #answer__1 {
     width: 250px;
     margin-top: 40px;
@@ -36,7 +40,6 @@
     align-self: center;
     justify-content: center;
     font-size: large;
-    display: hidden;
 }
 
 #answer__5 {
