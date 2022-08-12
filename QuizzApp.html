@@ -4,106 +4,41 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <title>Quizz-App</title>
-    <link rel="import" href="./bookmarks.html" />
-    <link rel="import" href="./profile.html" />
-    <link rel="stylesheet" href="./styles.css" />
-    <script src="./components/string.js"></script>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <script src="./js/string.js" defer></script>
   </head>
 
   <body>
     <header id="jump__top">
       <h1>Quizz App</h1>
     </header>
-
     <main>
-      <section class="sec">
-        <img class="bookmark--top--right" src="./images/bookmark-white.png" />
-        <p class="ask">What Does HTML Stand For?</p>
-        <button class="button__show__answer" onclick="aFunction()">
+      <article class="quiz--card">
+        <button class="bookmark--top--right">
+          <svg style="width: 36px; height: 36px" viewBox="0 0 24 24">
+            <path
+              fill="currentColor"
+              d="M17,3H7A2,2 0 0,0 5,5V21L12,18L19,21V5C19,3.89 18.1,3 17,3Z"
+            />
+          </svg>
+        </button>
+
+        <p class="question">What does HTML stand for?</p>
+
+        <button class="Quizz__Button__1" data-js="data-button">
           Show Answer
         </button>
-        <div id="answer__1">Hyper Text Markup Language</div>
 
-        <div class="divx">
-          <button class="tag">#html</button>
-          <button class="tag">#flexbox</button>
-          <button class="tag">#css</button>
-        </div>
-      </section>
-
-      <section class="sec">
-        <img class="bookmark--top--right" src="./images/bookmark-black.png" />
-        <p class="ask">What does CSS stand for?</p>
-        <button class="button__show__answer" onclick="bFunction()">
-          Show Answer
-        </button>
-        <div id="answer__2">Cascading Style Sheets</div>
-
-        <div class="divx">
-          <button class="tag">#html</button>
-          <button class="tag">#flexbox</button>
-          <button class="tag">#css</button>
-        </div>
-      </section>
-      <section class="sec">
-        <img
-          class="bookmark--top--right"
-          src="./images/bookmark-white.png"
-          alt="account"
-        />
-        <p class="ask">How do I link my script to my HTML file?</p>
-        <button class="button__show__answer" onclick="cFunction()">
-          Show Answer
-        </button>
-        <div id="answer__3">because</div>
-
-        <div class="divx">
-          <button class="tag">#html</button>
-          <button class="tag">#flexbox</button>
-          <button class="tag">#css</button>
-        </div>
-      </section>
-
-      <section class="sec">
-        <img
-          class="bookmark--top--right"
-          src="./images/bookmark-white.png"
-          alt="account"
-        />
-        <p class="ask">The # symbol specifies that the selector is?</p>
-        <button class="button__show__answer" onclick="dFunction()">
-          Show Answer
-        </button>
-        <div id="answer__4">id</div>
-
-        <div class="divx">
-          <button class="tag">#html</button>
-          <button class="tag">#flexbox</button>
-          <button class="tag">#css</button>
-        </div>
-      </section>
-
-      <section class="sec">
-        <img
-          class="bookmark--top--right"
-          src="./images/bookmark-white.png"
-          alt="account"
-        />
-        <p class="ask">
-          Which property is used to change the background color?
+        <p class="hidden hidden__answer" data-js="data-answer">
+          Hyper Text Markup Language
         </p>
-        <button class="button__show__answer" onclick="eFunction()">
-          Show Answer
-        </button>
-        <div id="answer__5">background-color:</div>
 
-        <div class="divx">
-          <button class="tag">#html</button>
-          <button class="tag">#flexbox</button>
-          <button class="tag">#css</button>
+        <div class="tags">
+          <button>#html</button>
         </div>
-      </section>
+      </article>
 
       <footer>
         <nav class="nav__bar--fixed">

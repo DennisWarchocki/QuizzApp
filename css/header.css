@@ -1,0 +1,10 @@
+header {
+  text-align: center;
+  color: white;
+  background-color: #607eaa;
+  padding: 30px;
+  border-style: solid;
+  border-width: 6px;
+  border-color: black;
+  position: static;
+}
